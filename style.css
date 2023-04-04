@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./assets/background.jpg);
+    background-size: cover;
+    font-family: 'Alkatra', cursive;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+
+}
+.container > h1{
+    color: white;
+}
+.calculator{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: 30rem;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+.button{
+    height: 4.5rem;
+    width: 4.5rem;
+    margin: 0.2rem;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border: none;
+}
+
+.button:hover{
+    background-color: #d4d4d8;
+}
+
+.operator{
+    background-color:#ffa200;
+    color: white;
+}
+
+.operator:hover{
+    background-color: white;
+    color: #ffa200;
+}
+
+.screen{
+    color: white;
+    height: 5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 2.5rem;
+}
+.equal{
+    width: 10rem;
+}
