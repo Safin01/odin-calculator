@@ -5,41 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer="true" ></script>
     <title>Calculator</title>
 </head>
 <body>
     <div class="container">
         <h1>Calculator</h1>
         <div class="calculator">
-            <div class="screen">hello</div>
+            <div class="screen"></div>
             <div class="row">
-                <button class="button clear" style="background-color: #a1a1aa">C</button>
-                <button class="button pm"  style="background-color: #a1a1aa">+/-</button>
-                <button class="button percentage"  style="background-color: #a1a1aa">%</button>
-                <button class="button divide operator">/</button>
+                <button class="button clear" id="clear" style="background-color: #a1a1aa">C</button>
+                <button class="button pm" id="pm"  style="background-color: #a1a1aa">+/-</button>
+                <button class="button percentage" id="percentage" style="background-color: #a1a1aa">%</button>
+                <button class="button divide operator" id="divide" >/</button>
             </div>
             <div class="row">
                 <button class="button number">7</button>
                 <button class="button number">8</button>
                 <button class="button number">9</button>
-                <button class="button multiply operator">X</button>
+                <button class="button multiply operator" id="multiply">X</button>
             </div>
             <div class="row">
                 <button class="button number">4</button>
                 <button class="button number">5</button>
                 <button class="button number">6</button>
-                <button class="button minus operator">-</button>
+                <button class="button minus operator" id="subtract" >-</button>
             </div>
             <div class="row">
                 <button class="button number">1</button>
                 <button class="button number">2</button>
                 <button class="button number">3</button>
-                <button class="button addition operator">+</button>
+                <button class="button addition operator" id="add" >+</button>
             </div>
             <div class="row" style="display: flex;">
                 <button class="button number">0</button>
-                <button class="button decimal">.</button>
-                <button class="button equal operator">=</button>
+                <button class="button decimal" >.</button>
+                <button class="button equal operator" id="equal" >=</button>
             </div>
         </div>
     </div>
